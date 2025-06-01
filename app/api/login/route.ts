@@ -1,5 +1,4 @@
 import { userLoginSchema } from "@/lib/types";
-import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 export const POST = async (request: NextRequest) => {
